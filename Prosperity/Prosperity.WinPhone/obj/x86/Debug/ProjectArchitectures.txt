@@ -1,0 +1,2 @@
+C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.WinPhone\Prosperity.WinPhone.csproj;x86
+C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity\Prosperity.csproj;neutral

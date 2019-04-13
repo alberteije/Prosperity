@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prosperity.View.ContaDespesaPage" Title="{Binding Descricao}">
+	<StackLayout Margin="20" VerticalOptions="StartAndExpand">
+		<Label Text="Codigo" />
+		<Entry Text="{Binding Codigo}" />
+		<Label Text="Descrição" />
+		<Entry Text="{Binding Descricao}" />
+        <Button x:Name="BotaoSalvar" Text="Salvar" Clicked="OnSaveClicked" />
+        <Button x:Name="BotaoExcluir" Text="Excluir" Clicked="OnDeleteClicked" />
+        <Button x:Name="BotaoCancelar" Text="Cancelar" Clicked="OnCancelClicked" />
+    </StackLayout>
+</ContentPage>

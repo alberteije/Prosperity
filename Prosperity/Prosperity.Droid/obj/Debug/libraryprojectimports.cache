@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars>obj\Debug\__library_projects__\FormsViewGroup\library_project_imports\formsviewgroup.jar;C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\FormsViewGroup\library_project_imports\formsviewgroup.jar</Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\Plugin.FilePicker\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SkiaSharp\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SkiaSharp.Views.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SkiaSharp.Views.Forms\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SQLitePCLRaw.batteries_green\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SQLitePCLRaw.batteries_v2\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SQLitePCLRaw.core\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SQLitePCLRaw.lib.e_sqlite3\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SQLitePCLRaw.provider.e_sqlite3\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\res</ResolvedResourceDirectory>
+    <ResolvedResourceDirectory>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Plugin.FilePicker\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\SkiaSharp\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\SkiaSharp.Views.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\SkiaSharp.Views.Forms\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\SQLitePCLRaw.batteries_green\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\SQLitePCLRaw.batteries_v2\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\SQLitePCLRaw.core\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\SQLitePCLRaw.lib.e_sqlite3\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\SQLitePCLRaw.provider.e_sqlite3\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android\library_project_imports\assets</ResolvedAssetDirectory>
+    <ResolvedAssetDirectory>obj\Debug\__library_projects__\Xamarin.Forms.Platform\library_project_imports\assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\Plugin.FilePicker.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SkiaSharp.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SkiaSharp.Views.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SkiaSharp.Views.Forms.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SQLitePCLRaw.batteries_green.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SQLitePCLRaw.batteries_v2.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SQLitePCLRaw.core.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SQLitePCLRaw.lib.e_sqlite3.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\SQLitePCLRaw.provider.e_sqlite3.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.Android.stamp</ResolvedResourceDirectoryStamp>
+    <ResolvedResourceDirectoryStamp>C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.Droid\obj\Debug\__library_projects__\Xamarin.Forms.Platform.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

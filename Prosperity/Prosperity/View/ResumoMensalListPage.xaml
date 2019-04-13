@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prosperity.View.ResumoMensalListPage" Title="Resumo Mensal">
+    <ContentPage.ToolbarItems>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+        
+        <Frame OutlineColor="Black">
+            <Label x:Name="labelTitulo"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    TextColor="Default" 
+                   HorizontalOptions="CenterAndExpand"/>
+        </Frame>
+
+        <ListView x:Name="listViewReceitas" Margin="10">
+            <ListView.RowHeight>
+                <OnPlatform x:TypeArguments="x:Int32"
+                    iOS="50"
+                    Android="50" />
+            </ListView.RowHeight>
+            <ListView.Header>
+                <StackLayout Padding="10,5,0,5" BackgroundColor="#cccccc">
+                    <Label Text="Receitas" />
+                </StackLayout>
+            </ListView.Header>
+            <ListView.Footer>
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="White">
+                        <Label x:Name="labelTotalReceitas" Text="Total de Receitas: " HorizontalTextAlignment="End"/>
+                    </StackLayout>
+                </StackLayout>
+            </ListView.Footer>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+
+                            <StackLayout HorizontalOptions="FillAndExpand">
+                                <Label Text="{Binding CodigoDescricao}" TextColor="Black" />
+                                <Label Text="{Binding Valor, StringFormat='{0:R$ #,##0.00;(R$ #,##0.00);0}'}" HorizontalTextAlignment="End" />
+                            </StackLayout>
+
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+        <ListView x:Name="listViewDespesas" Margin="10">
+            <ListView.RowHeight>
+                <OnPlatform x:TypeArguments="x:Int32"
+                    iOS="50"
+                    Android="50" />
+            </ListView.RowHeight>
+            <ListView.Header>
+                <StackLayout Padding="10,5,0,5" BackgroundColor="#cccccc">
+                    <Label Text="Despesas" />
+                </StackLayout>
+            </ListView.Header>
+            <ListView.Footer>
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="White">
+                        <Label x:Name="labelTotalDespesas" Text="Total de Despesas: " HorizontalTextAlignment="End"/>
+                    </StackLayout>
+                </StackLayout>
+            </ListView.Footer>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+
+                            <StackLayout HorizontalOptions="FillAndExpand">
+                                <Label Text="{Binding CodigoDescricao}" TextColor="Black" />
+                                <Label Text="{Binding Valor, StringFormat='{0:R$ #,##0.00;(R$ #,##0.00);0}'}" HorizontalTextAlignment="End" />
+                            </StackLayout>
+
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Frame OutlineColor="Black">
+            <Label x:Name="labelSaldo"
+                    FontSize="Medium"
+                    FontAttributes="Bold"
+                    TextColor="Default" 
+                   HorizontalOptions="End"/>
+        </Frame>
+
+    </StackLayout>
+
+</ContentPage>

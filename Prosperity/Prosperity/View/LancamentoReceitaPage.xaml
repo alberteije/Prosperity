@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prosperity.View.LancamentoReceitaPage" Title="Lançamentos de Receita">
+    <ScrollView Padding="5">
+        <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+            <StackLayout.Resources>
+                <!--
+            // Exercício            
+                Estude uma maneira de aplicar os recursos para toda a aplicação.
+            -->
+                <ResourceDictionary>
+                    <Style x:Key="buttonStyle" TargetType="Button">
+                        <Setter Property="BackgroundColor" Value="#27A9E1" />
+                        <Setter Property="TextColor" Value="White" />
+                        <Setter Property="FontSize">
+                            <Setter.Value>
+                                <OnIdiom x:TypeArguments="x:Double" Phone="13" Tablet="16"/>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Property="WidthRequest">
+                            <Setter.Value>
+                                <OnIdiom x:TypeArguments="x:Double" Phone="250" Tablet="320"/>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Property="HeightRequest">
+                            <Setter.Value>
+                                <OnIdiom x:TypeArguments="x:Double" Phone="40" Tablet="50"/>
+                            </Setter.Value>
+                        </Setter>
+                        <Setter Property="HorizontalOptions" Value="Center" />
+
+                        <Setter Property="BorderRadius">
+                            <Setter.Value>
+                                <OnIdiom x:TypeArguments="x:Int32" Phone="15" Tablet="25"/>
+                            </Setter.Value>
+                        </Setter>
+                    </Style>
+                </ResourceDictionary>
+            </StackLayout.Resources>
+            
+
+            <Label Text="Conta" />
+            <Picker x:Name="listaContaReceita" Title="Selecione a Conta"></Picker>
+
+            <Label Text="Data Receita" />
+            <DatePicker Date="{Binding Path=DataReceita}" />
+
+            <Label Text="Histórico" />
+            <Editor Text="{Binding Historico}" HeightRequest="90"/>
+
+            <Label Text="Valor" />
+            <Entry Text="{Binding Valor}" HorizontalTextAlignment="End" Keyboard="Numeric"/>
+
+            <Label Text="Situação" />
+            <Picker x:Name="situacao" Title="Situação" SelectedIndex="{Binding Situacao}"
+              SelectedIndexChanged="OnPickerSelectedIndexChanged">
+              <Picker.Items>
+                <x:String>Recebido</x:String>
+                <x:String>A Receber</x:String>
+              </Picker.Items>
+            </Picker>
+
+            <Button Text="Salvar" Style="{StaticResource buttonStyle}" Clicked="OnSaveClicked" />
+            <Button Text="Excluir" Style="{StaticResource buttonStyle}" Clicked="OnDeleteClicked" />
+            <Button Text="Cancelar" Style="{StaticResource buttonStyle}" Clicked="OnCancelClicked" />
+	    </StackLayout>
+    </ScrollView>
+</ContentPage>

@@ -1,0 +1,123 @@
+OFXHEADER:100DATA:OFXSGMLVERSION:102SECURITY:NONEENCODING:USASCIICHARSET:1252COMPRESSION:NONEOLDFILEUID:NONENEWFILEUID:NONE<OFX>
+   <SIGNONMSGSRSV1>
+      <SONRS>
+         <STATUS>
+            <CODE>0</CODE>
+            <SEVERITY>INFO</SEVERITY>
+         </STATUS>
+         <DTSERVER>20170703120000[-3:BRT]</DTSERVER>
+         <LANGUAGE>POR</LANGUAGE>
+         <FI>
+            <ORG>Banco do Brasil</ORG>
+            <FID>1</FID>
+         </FI>
+      </SONRS>
+   </SIGNONMSGSRSV1>
+   <BANKMSGSRSV1>
+      <STMTTRNRS>
+         <TRNUID>1</TRNUID>
+         <STATUS>
+            <CODE>0</CODE>
+            <SEVERITY>INFO</SEVERITY>
+         </STATUS>
+         <STMTRS>
+            <CURDEF>BRL</CURDEF>
+            <BANKACCTFROM>
+               <BANKID>1</BANKID>
+               <BRANCHID>2906-8</BRANCHID>
+               <ACCTID>285718-9</ACCTID>
+               <ACCTTYPE>CHECKING</ACCTTYPE>
+            </BANKACCTFROM>
+            <BANKTRANLIST>
+               <DTSTART>20170331120000[-3:BRT]</DTSTART>
+               <DTEND>20170430120000[-3:BRT]</DTEND>
+               <STMTTRN>
+                  <TRNTYPE>OTHER</TRNTYPE>
+                  <DTPOSTED>20170403120000[-3:BRT]</DTPOSTED>
+                  <TRNAMT>236.00</TRNAMT>
+                  <FITID>201704030236000</FITID>
+                  <CHECKNUM>126000043074</CHECKNUM>
+                  <REFNUM>660.126.000.043.074</REFNUM>
+                  <MEMO>Transferência on line - 03/04 0126      43888-9 LIVROS</MEMO>
+               </STMTTRN>
+               <STMTTRN>
+                  <TRNTYPE>OTHER</TRNTYPE>
+                  <DTPOSTED>20170405120000[-3:BRT]</DTPOSTED>
+                  <TRNAMT>290.00</TRNAMT>
+                  <FITID>201704030290000</FITID>
+                  <CHECKNUM>000000661764</CHECKNUM>
+                  <REFNUM>661.764</REFNUM>
+                  <MEMO>Pagamento ref Pagseguro - PAGSEGURO INTERNET S.A</MEMO>
+               </STMTTRN>
+               <STMTTRN>
+                  <TRNTYPE>OTHER</TRNTYPE>
+                  <DTPOSTED>20170407120000[-3:BRT]</DTPOSTED>
+                  <TRNAMT>-25.96</TRNAMT>
+                  <FITID>20170403125960</FITID>
+                  <CHECKNUM>000000173807</CHECKNUM>
+                  <REFNUM>173.807</REFNUM>
+                  <MEMO>Compra com Cartão - 01/04 20:30 REI DO SUSHI</MEMO>
+               </STMTTRN>
+               <STMTTRN>
+                  <TRNTYPE>OTHER</TRNTYPE>
+                  <DTPOSTED>20170409120000[-3:BRT]</DTPOSTED>
+                  <TRNAMT>-7.00</TRNAMT>
+                  <FITID>2017040317000</FITID>
+                  <CHECKNUM>000000277192</CHECKNUM>
+                  <REFNUM>277.192</REFNUM>
+                  <MEMO>Compra com Cartão - 01/04 21:26 ANCAR NORDESTE ES</MEMO>
+               </STMTTRN>
+               <STMTTRN>
+                  <TRNTYPE>OTHER</TRNTYPE>
+                  <DTPOSTED>20170412120000[-3:BRT]</DTPOSTED>
+                  <TRNAMT>-200.00</TRNAMT>
+                  <FITID>201704031200000</FITID>
+                  <CHECKNUM>684400536021</CHECKNUM>
+                  <REFNUM>684.400.536.021</REFNUM>
+                  <MEMO>Banco 24 Horas - 03/04 08:05 TERMINAL EXTRA</MEMO>
+               </STMTTRN>
+               <STMTTRN>
+                  <TRNTYPE>OTHER</TRNTYPE>
+                  <DTPOSTED>20170415120000[-3:BRT]</DTPOSTED>
+                  <TRNAMT>-516.00</TRNAMT>
+                  <FITID>201704031516000</FITID>
+                  <CHECKNUM>000000040301</CHECKNUM>
+                  <REFNUM>40.301</REFNUM>
+                  <MEMO>Pagamento de Título - BANCO ITAU S.A.</MEMO>
+               </STMTTRN>
+               <STMTTRN>
+                  <TRNTYPE>OTHER</TRNTYPE>
+                  <DTPOSTED>20170416120000[-3:BRT]</DTPOSTED>
+                  <TRNAMT>-300.00</TRNAMT>
+                  <FITID>2017040311000000</FITID>
+                  <CHECKNUM>000000040302</CHECKNUM>
+                  <REFNUM>40.302</REFNUM>
+                  <MEMO>TED Transf.Eletr.Disponiv - 341 5555 456789 CARLOS CARLIM</MEMO>
+               </STMTTRN>
+               <STMTTRN>
+                  <TRNTYPE>OTHER</TRNTYPE>
+                  <DTPOSTED>20170417120000[-3:BRT]</DTPOSTED>
+                  <TRNAMT>3043.20</TRNAMT>
+                  <FITID>2017041101043200</FITID>
+                  <CHECKNUM>000005911936</CHECKNUM>
+                  <REFNUM>5.911.936</REFNUM>
+                  <MEMO>TED-Pag Fornecedores - 444 0001 456789456 MERCADOPAGO.CO</MEMO>
+               </STMTTRN>
+               <STMTTRN>
+                  <TRNTYPE>OTHER</TRNTYPE>
+                  <DTPOSTED>20170428120000[-3:BRT]</DTPOSTED>
+                  <TRNAMT>-298.59</TRNAMT>
+                  <FITID>201704281898590</FITID>
+                  <CHECKNUM>000000018522</CHECKNUM>
+                  <REFNUM>18.522</REFNUM>
+                  <MEMO>PLANO DE SAUDE</MEMO>
+               </STMTTRN>
+            </BANKTRANLIST>
+            <LEDGERBAL>
+               <BALAMT>591.86</BALAMT>
+               <DTASOF>20170430120000[-3:BRT]</DTASOF>
+            </LEDGERBAL>
+         </STMTRS>
+      </STMTTRNRS>
+   </BANKMSGSRSV1>
+</OFX>

@@ -1,0 +1,5 @@
+C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.iOS\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.iOS\obj\iPhone\Debug\actool\_PartialAppManifest.items
+C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.iOS\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.iOS\obj\iPhone\Debug\optimized\
+C:\Backup Geral\Projetos\The Light Arrow\Fontes\Prosperity\Prosperity\Prosperity.iOS\obj\iPhone\Debug\Prosperity.iOS.csprojResolveAssemblyReference.cache

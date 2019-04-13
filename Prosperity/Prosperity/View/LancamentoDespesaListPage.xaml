@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prosperity.View.LancamentoDespesaListPage" Title="Lançamentos de Despesa">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="+" Clicked="OnItemAdded">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource" Android="plus.png" />
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+        
+        <Frame OutlineColor="Black">
+            <Label x:Name="labelTitulo"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    TextColor="Default" 
+                   HorizontalOptions="CenterAndExpand"/>
+        </Frame>
+
+        <ListView x:Name="listView" Margin="10" ItemSelected="OnListItemSelected">
+            <ListView.RowHeight>
+                <OnPlatform x:TypeArguments="x:Int32"
+                    iOS="140"
+                    Android="140" />
+            </ListView.RowHeight>
+            <ListView.Footer>
+                <StackLayout Orientation="Horizontal">
+                    <StackLayout HorizontalOptions="FillAndExpand" BackgroundColor="White">
+                        <Label x:Name="labelAPagar" Text="A Pagar: " TextColor="Red" HorizontalTextAlignment="End"/>
+                        <Label x:Name="labelPago" Text="Pago: " TextColor="Blue" HorizontalTextAlignment="End"/>
+                        <Label x:Name="labelTotal" Text="Total: " TextColor="Black" HorizontalTextAlignment="End"/>
+                    </StackLayout>
+                </StackLayout>
+            </ListView.Footer>
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Orientation="Horizontal">
+
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="{Binding Historico}" TextColor="Black" />
+                                <Label Text="{Binding DataDespesaCodigo, StringFormat='{0:d}'}" TextColor="Black" />
+                                <Label Text="{Binding MesAno}" TextColor="Black" />
+                                <Label Text="{Binding DescricaoSituacao}" TextColor="Black" />
+                                <Label Text="{Binding Valor, StringFormat='{0:R$ #,##0.00;(R$ #,##0.00);0}'}" TextColor="{Binding CorValor}" />
+                            </StackLayout>
+
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+    </StackLayout>
+
+</ContentPage>

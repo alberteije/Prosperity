@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <SelectedDevice>Motorola Moto G %285%29</SelectedDevice>
+    <DefaultDevice>Android_Accelerated_Nougat</DefaultDevice>
+  </PropertyGroup>
+</Project>

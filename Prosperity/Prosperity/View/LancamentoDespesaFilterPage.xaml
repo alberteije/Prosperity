@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="Prosperity.View.LancamentoDespesaFilterPage" Title="Lançamentos de Despesa">
+    <ContentPage.ToolbarItems>
+    </ContentPage.ToolbarItems>
+
+    <StackLayout>
+        <StackLayout.Resources>
+            <!--
+            // Exercício            
+                Estude uma maneira de aplicar os recursos para toda a aplicação.
+            -->
+            <ResourceDictionary>
+                <Style TargetType="DatePicker">
+                    <Setter Property="Format" Value="MM/yyyy" />
+                    <Setter Property="VerticalOptions" Value="Center" />
+                    <Setter Property="HorizontalOptions" Value="FillAndExpand" />
+                </Style>
+
+                <Style x:Key="buttonStyle" TargetType="Button">
+                    <Setter Property="BackgroundColor" Value="#27A9E1" />
+                    <Setter Property="TextColor" Value="White" />
+                    <Setter Property="FontSize">
+                        <Setter.Value>
+                            <OnIdiom x:TypeArguments="x:Double" Phone="13" Tablet="16"/>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="WidthRequest">
+                        <Setter.Value>
+                            <OnIdiom x:TypeArguments="x:Double" Phone="250" Tablet="320"/>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="HeightRequest">
+                        <Setter.Value>
+                            <OnIdiom x:TypeArguments="x:Double" Phone="40" Tablet="50"/>
+                        </Setter.Value>
+                    </Setter>
+                    <Setter Property="HorizontalOptions" Value="Center" />
+
+                    <Setter Property="BorderRadius">
+                        <Setter.Value>
+                            <OnIdiom x:TypeArguments="x:Int32" Phone="15" Tablet="25"/>
+                        </Setter.Value>
+                    </Setter>
+                </Style>
+            </ResourceDictionary>
+        </StackLayout.Resources>
+
+        
+        
+        <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Center">
+            <Label Text="Conta"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    TextColor="Default" />
+        </StackLayout>
+
+        <Frame OutlineColor="Black">
+            <Picker x:Name="listaContaDespesa" Title="Selecione a Conta" HorizontalOptions="FillAndExpand"></Picker>
+        </Frame>
+
+        <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+                    VerticalOptions="Start"
+                    HorizontalOptions="Center">
+            <Label Text="Mês/Ano"
+                    FontSize="Large"
+                    FontAttributes="Bold"
+                    TextColor="Default" />
+        </StackLayout>
+
+        <Frame OutlineColor="Black">
+            <DatePicker x:Name="mesAnoDatePicker" HorizontalOptions="FillAndExpand" DateSelected="OnDateSelected" />
+        </Frame>
+
+        <Button Text="Filtrar" Style="{StaticResource buttonStyle}" Clicked="OnFiltrarClicked"/>
+
+    </StackLayout>
+
+</ContentPage>
