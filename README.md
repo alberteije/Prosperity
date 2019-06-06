@@ -27,5 +27,5 @@ Here's a video featuring the project. Set the display quality to "automatic" or 
 							<hr />
 						Protótipo feito no Visual Studio Community Edition. 
 	<br /><br />
-	[Prototype made using Visual Studio Community Edition].
+	<i>[Prototype made using Visual Studio Community Edition].</i>
 </html>
