@@ -1,6 +1,5 @@
 <html>
 						<h1>Prosperity - Sistema Financeiro Pessoal com Xamarin.Forms</h1>
-	<h2><i>[Prosperity - Personal Financial System with Xamarin.Forms]</i></h2>
 	Este projeto foi desenvolvido para um treinamento que pode ser visto no seguinte 
   link: http://t2ti.com/curso/mobile/financeiro-pessoal-xf/. 
   O projeto foi desenvolvido para produção. 
@@ -13,6 +12,7 @@
 						<br />
 						Configure a qualidade de exibição para "automático" ou selecione a melhor qualidade (HD).
 	<br /><br />
+	<h2><i>[Prosperity - Personal Financial System with Xamarin.Forms]</i></h2>
 	<i>
 [This project was developed for a training that can be seen in the following link: http://t2ti.com/curso/mobile/financeiro-pessoal-xf/. The project was developed for production. You can download the source code and make the changes you want. If you want to learn step by step how to develop the application, you can purchase the course (in portuguese only).
 <br /><br />
